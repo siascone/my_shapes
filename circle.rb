@@ -4,7 +4,7 @@ class Circle
         @position = [x, y]
     end
 
-    def area 
-        Math::PI * @radius ** 2
-    end
+    # def area 
+    #     Math::PI * @radius ** 2
+    # end
 end
