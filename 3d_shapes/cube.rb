@@ -6,5 +6,6 @@ class Cube
     def volume 
         @length_of_side ** 3
     end
-    
+
+    attr_reader :@length_of_side
 end
